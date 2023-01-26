@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <link href="unitConverterAll.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <h1>SIMPLE UNIT CONVERTER</h1>
+    <h2>Select your Converter</h2>
+
+    <div class="selection-btn">
+        <button class="btn-select" onclick="lengthDiv()">LENGTH</button>
+        <button class="btn-select" onclick="volumeDiv()">VOLUME</button>
+        <button class="btn-select" onclick="weightDiv()">WEIGHT</button>
+    </div>
+
+    <div class="main-div">
+
+        <div id="length-div">
+
+            <div>
+                <h3>Select input method 👇</h3>
+                <select id="select-metre">
+                    <option>---select---</option>
+                    <option>metre</option>
+                    <option>kilometre</option>
+                    <option>centimetre</option>
+                    <option>millimetre</option>
+                </select>
+            <br/><br/>
+                <input class="data-input-metre" type="number" placeholder="Enter value" />
+            </div>
+
+            <div>
+                <button onclick="btnConvertM()" id="btn-m">metre</button>
+                <button onclick="btnConvertKm()" id="btn-km">kilometre</button>
+                <button onclick="btnConvertCm()" id="btn-cm">centimetre</button>
+                <button onclick="btnConvertMm()" id="btn-mm">millimetre</button>
+            </div>
+
+        </div>
+
+        <div id="volume-div">
+
+            <div>
+                <h3>Select input method 👇</h3>
+                <select id="select-litre">
+                    <option>---select---</option>
+                    <option>litre</option>
+                    <option>kilolitre</option>
+                    <option>kilolitre</option>
+                    <option>millilitre</option>
+                </select>
+            <br/><br/>
+                <input class="data-input-litre" type="number" placeholder="Enter value" />
+            </div>
+
+            <div>
+                <button onclick="btnConvertL()" id="btn-l">litre</button>
+                <button onclick="btnConvertKl()" id="btn-kl">kilolitre</button>
+                <button onclick="btnConvertCl()" id="btn-cl">centilitre</button>
+                <button onclick="btnConvertMl()" id="btn-ml">millilitre</button>
+            </div>
+
+        </div>
+
+        <div id="weight-div">
+            <div>
+                <h3>Select input method 👇</h3>
+                <select id="select-gram">
+                    <option>---select---</option>
+                    <option>gram</option>
+                    <option>kilogram</option>
+                    <option>centigram</option>
+                    <option>milligram</option>
+                </select>
+            <br/><br/>
+                <input class="data-input-gram" type="number" placeholder="Enter value" />
+            </div>
+
+            <div>
+                <button onclick="btnConvertG()" id="btn-g">gram</button>
+                <button onclick="btnConvertKg()" id="btn-kg">kilogram</button>
+                <button onclick="btnConvertCg()" id="btn-cg">centigram</button>
+                <button onclick="btnConvertMg()" id="btn-mg">milligram</button>
+            </div>
+
+        </div>
+
+        <div class="res-div">
+            <h3 id="res">jaya</h3>
+        </div>
+            
+
+    </div>
+
+    <script src="unitConverterAll.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+body{
+	background-color:black;
+	color:white;
+}
+h1{
+	text-align:center;
+	padding:20px 0px 0px 10px;
+}
+h2{
+	text-align:center;
+	padding:15px;
+}
+
+.selection-btn{
+	text-align:center;
+	padding:5px;
+}
+.btn-select{
+	padding:10px;
+	border:1px solid aqua;
+	background-color:rgb(249, 249, 131);
+	color:red;
+	margin:2px 25px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	font-size:19px;
+	cursor: pointer;
+}
+.main-div{
+	padding:20px;
+	text-align:center;
+}
+.data-input-metre , .data-input-litre , .data-input-gram{
+	text-align:center;
+	padding:10px;
+	border:3px groove red;
+	border-radius:20px;
+	width:60vw;
+	margin-bottom: 10px;
+}
+#length-div{
+	display:none;
+	padding:15px;
+	background-color:black;
+	margin:0px auto;
+	border-radius:10px;
+	width:90vw;
+	border-radius:10px;
+	text-align:center;
+}
+#volume-div{
+	display:none;
+	padding:15px;
+	background-color:black;
+	margin:0px auto;
+	border-radius:10px;
+	width:90vw;
+	border-radius:10px;
+	text-align:center;
+}
+
+#weight-div{
+	display:none;
+	padding:15px;
+	background-color:black;
+	margin:0px auto;
+	border-radius:10px;
+	width:90vw;
+	border-radius:10px;
+	text-align:center;
+
+}
+.res-div{
+	padding:20px;
+	margin:15px auto;
+	width:80vw;
+	border:1px solid red;
+	border-radius:20px;
+	font-size:25px;
+	display: none;
+
+}
+button{
+	background:black;
+	color:white;
+	outline:2px solid orange;
+	padding:7px 15px;
+	border-radius:15px;
+	font-size:17px;
+	margin:8px 20px;
+	cursor: pointer;
+}
+select{
+	margin: 10px 0px;
+	padding: 5px 10px;
+	font-size: 17;
+	border: 2px groove rgb(255, 47, 0);
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
